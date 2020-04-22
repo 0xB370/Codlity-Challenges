@@ -14,7 +14,7 @@ For example, given N = 1041 the function should return 5, because N has binary r
 
 Write an **efficient** algorithm for the following assumptions:
 
-        - N is an integer within the range [1..2,147,483,647].
+- N is an integer within the range [1..2,147,483,647].
 
 
 # 2 - CyclicRotation
@@ -25,7 +25,7 @@ The goal is to rotate array A K times; that is, each element of A will be shifte
 
 Write a function:
 
-    class Solution { public int[] solution(int[] A, int K); }
+    function solution(A, K);
 
 that, given an array A consisting of N integers and an integer K, returns the array A rotated K times.
 
@@ -52,8 +52,8 @@ the function should return [1, 2, 3, 4]
 
 Assume that:
 
-        - N and K are integers within the range [0..100];
-        - each element of array A is an integer within the range [−1,000..1,000].
+- N and K are integers within the range [0..100];
+- each element of array A is an integer within the range [−1,000..1,000].
 
 In your solution, focus on **correctness**. The performance of your solution will not be the focus of the assessment.
 
@@ -67,10 +67,10 @@ For example, in array A such that:
   A[3] = 3  A[4] = 9  A[5] = 7
   A[6] = 9
 
-        - the elements at indexes 0 and 2 have value 9,
-        - the elements at indexes 1 and 3 have value 3,
-        - the elements at indexes 4 and 6 have value 9,
-        - the element at index 5 has value 7 and is unpaired.
+- the elements at indexes 0 and 2 have value 9,
+- the elements at indexes 1 and 3 have value 3,
+- the elements at indexes 4 and 6 have value 9,
+- the element at index 5 has value 7 and is unpaired.
 
 Write a function:
 
@@ -87,9 +87,9 @@ the function should return 7, as explained in the example above.
 
 Write an **efficient** algorithm for the following assumptions:
 
-        - N is an odd integer within the range [1..1,000,000];
-        - each element of array A is an integer within the range [1..1,000,000,000];
-        - all but one of the values in A occur an even number of times.
+- N is an odd integer within the range [1..1,000,000];
+- each element of array A is an integer within the range [1..1,000,000,000];
+- all but one of the values in A occur an even number of times.
 
 
 # 4 - FrogJmp
@@ -100,7 +100,7 @@ Count the minimal number of jumps that the small frog must perform to reach its 
 
 Write a function:
 
-    class Solution { public int solution(int X, int Y, int D); }
+    function solution(X, Y, D);
 
 that, given three integers X, Y and D, returns the minimal number of jumps from position X to a position equal to or greater than Y.
 
@@ -111,12 +111,12 @@ For example, given:
 
 the function should return 3, because the frog will be positioned as follows:
 
-        - after the first jump, at position 10 + 30 = 40
-        - after the second jump, at position 10 + 30 + 30 = 70
-        - after the third jump, at position 10 + 30 + 30 + 30 = 100
+- after the first jump, at position 10 + 30 = 40
+- after the second jump, at position 10 + 30 + 30 = 70
+- after the third jump, at position 10 + 30 + 30 + 30 = 100
 
 Write an **efficient** algorithm for the following assumptions:
 
-    * X, Y and D are integers within the range [1..1,000,000,000];
-    * X ≤ Y.
+- X, Y and D are integers within the range [1..1,000,000,000];
+- X ≤ Y.
 

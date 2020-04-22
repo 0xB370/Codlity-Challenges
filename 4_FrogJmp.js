@@ -7,7 +7,7 @@ Count the minimal number of jumps that the small frog must perform to reach its 
 
 Write a function:
 
-    class Solution { public int solution(int X, int Y, int D); }
+    function solution(X, Y, D);
 
 that, given three integers X, Y and D, returns the minimal number of jumps from position X to a position equal to or greater than Y.
 
