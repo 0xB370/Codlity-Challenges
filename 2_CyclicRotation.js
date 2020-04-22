@@ -34,13 +34,13 @@ the function should return [1, 2, 3, 4]
 
 Assume that:
 
-        N and K are integers within the range [0..100];
-        each element of array A is an integer within the range [−1,000..1,000].
+        - N and K are integers within the range [0..100];
+        - each element of array A is an integer within the range [−1,000..1,000].
 
 In your solution, focus on correctness. The performance of your solution will not be the focus of the assessment.
 */
 
-var arreglo = [1, 2, 3, 4];
+var arreglo = [3, 8, 9, 7, 6];
 
 
 function solution(A, K) {
@@ -53,13 +53,5 @@ function solution(A, K) {
     return retorno;
 }
 
-resultado = solution(arreglo, 4);
-
-var inicio2 = [arreglo[(arreglo.length)-1]];
-inicio2 = inicio2.concat(arreglo);
-inicio2 = inicio2.slice(0,arreglo.length);
-
-console.log(arreglo);
-//console.log(inicio2);
-//console.log(arreglo.length);
+resultado = solution(arreglo, 3);
 console.log(resultado);

@@ -6,15 +6,15 @@ For example, number 9 has binary representation 1001 and contains a binary gap o
 
 Write a function:
 
-    class Solution { public int solution(int N); }
+    function solution(N);
 
 that, given a positive integer N, returns the length of its longest binary gap. The function should return 0 if N doesn't contain a binary gap.
 
 For example, given N = 1041 the function should return 5, because N has binary representation 10000010001 and so its longest binary gap is of length 5. Given N = 32 the function should return 0, because N has binary representation '100000' and thus no binary gaps.
 
-Write an efficient algorithm for the following assumptions:
+Write an **efficient** algorithm for the following assumptions:
 
-        N is an integer within the range [1..2,147,483,647].
+        - N is an integer within the range [1..2,147,483,647].
 
 
 # 2 - CyclicRotation
@@ -52,10 +52,10 @@ the function should return [1, 2, 3, 4]
 
 Assume that:
 
-        N and K are integers within the range [0..100];
-        each element of array A is an integer within the range [−1,000..1,000].
+        - N and K are integers within the range [0..100];
+        - each element of array A is an integer within the range [−1,000..1,000].
 
-In your solution, focus on correctness. The performance of your solution will not be the focus of the assessment.
+In your solution, focus on **correctness**. The performance of your solution will not be the focus of the assessment.
 
 
 # 3 - OddOccurrencesInArray
@@ -67,14 +67,14 @@ For example, in array A such that:
   A[3] = 3  A[4] = 9  A[5] = 7
   A[6] = 9
 
-        the elements at indexes 0 and 2 have value 9,
-        the elements at indexes 1 and 3 have value 3,
-        the elements at indexes 4 and 6 have value 9,
-        the element at index 5 has value 7 and is unpaired.
+        - the elements at indexes 0 and 2 have value 9,
+        - the elements at indexes 1 and 3 have value 3,
+        - the elements at indexes 4 and 6 have value 9,
+        - the element at index 5 has value 7 and is unpaired.
 
 Write a function:
 
-    class Solution { public int solution(int[] A); }
+    function solution(A);
 
 that, given an array A consisting of N integers fulfilling the above conditions, returns the value of the unpaired element.
 
@@ -85,11 +85,11 @@ For example, given array A such that:
 
 the function should return 7, as explained in the example above.
 
-Write an efficient algorithm for the following assumptions:
+Write an **efficient** algorithm for the following assumptions:
 
-        N is an odd integer within the range [1..1,000,000];
-        each element of array A is an integer within the range [1..1,000,000,000];
-        all but one of the values in A occur an even number of times.
+        - N is an odd integer within the range [1..1,000,000];
+        - each element of array A is an integer within the range [1..1,000,000,000];
+        - all but one of the values in A occur an even number of times.
 
 
 # 4 - FrogJmp
@@ -111,12 +111,12 @@ For example, given:
 
 the function should return 3, because the frog will be positioned as follows:
 
-        after the first jump, at position 10 + 30 = 40
-        after the second jump, at position 10 + 30 + 30 = 70
-        after the third jump, at position 10 + 30 + 30 + 30 = 100
+        - after the first jump, at position 10 + 30 = 40
+        - after the second jump, at position 10 + 30 + 30 = 70
+        - after the third jump, at position 10 + 30 + 30 + 30 = 100
 
-Write an efficient algorithm for the following assumptions:
+Write an **efficient** algorithm for the following assumptions:
 
-        X, Y and D are integers within the range [1..1,000,000,000];
-        X ≤ Y.
+        - X, Y and D are integers within the range [1..1,000,000,000];
+        - X ≤ Y.
 
